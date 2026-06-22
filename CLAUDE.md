@@ -1,5 +1,14 @@
 # CLAUDE.md — normgraph
 
+## Sync discipline (git ⇄ claude.ai)
+This repo is canonical. The claude.ai project knowledge is a read-only mirror of
+`docs/project/`, pulled by the GitHub connector on a manual "Sync now" — no
+auto-sync on push, and nothing flows here → repo except a human commit. End every
+session with a SYNC BLOCK: what changed, whether it is committed and pushed, and --
+if any `docs/project/` file changed -- a reminder that the user must click "Sync
+now" on claude.ai. Never assume the mirror is fresher than this repo; on conflict,
+the repo wins. Full protocol: docs/project/05_sync_protocol.md.
+
 ## What this repo is
 The single source of truth for **NormGraph**: a Design Science Research project
 building a graph of German civil-law norms plus a learned fact-conditional
