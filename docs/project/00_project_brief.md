@@ -53,6 +53,16 @@ Consequence: **files are the spine, chats are disposable working sessions.** Don
 | 04_specs/ (per-component) | CODE | added as DDs are decided |
 | Literature PDFs | PAPER | upload the course papers |
 
+### Repo layer (since C-02)
+
+One private repository `normgraph` is the single source of truth and is itself the
+Level-1 artifact the paper reports. It hosts the **canonical spine**
+`docs/project/` (00, 01, 02, specs/), the code lane (`src/`, `tests/`, `spikes/`,
+`data/`), and the manuscript (`paper/`, with PAPER markdown drafts in
+`paper/notes/`). The claude.ai project knowledge is the **mirror** of the spine:
+flat copies, same filenames, refreshed by paste after each change in git. Sync
+direction is git → claude.ai. See `specs/C-02_repo_bootstrap.md`.
+
 ## 7. Immediate next steps
 
 1. You: create the project, paste the instructions (§5), upload these three files + the literature PDFs.
