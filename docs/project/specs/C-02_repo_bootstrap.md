@@ -1,6 +1,6 @@
 # 04_specs / C-02 — Repo bootstrap: single private monorepo, git-canonical spine
 
-Status: **specified — execution pending via Claude Code** · Date: 2026-06-12 · Lane: CODE · Feeds: all lanes (infrastructure) · **No DD touched** — DD-001/002/005 remain open; nothing in this bootstrap presupposes node model, edge taxonomy, or graph store.
+Status: **done** · Date: 2026-06-22 (specified 2026-06-12) · Lane: CODE · Feeds: all lanes (infrastructure) · **No DD touched** — DD-001/002/005 remain open; nothing in this bootstrap presupposes node model, edge taxonomy, or graph store.
 
 ## Decisions taken (infrastructure level, not DDs)
 
@@ -19,18 +19,18 @@ Status: **specified — execution pending via Claude Code** · Date: 2026-06-12 
 
 ## Execution
 
-Via handoff file `C-02_handoff_claude_code.md`, run by **Claude Code** from the intended parent directory (claude.ai sessions have no local filesystem access). Staging: user places the five project documents (00, 01, 02, C-01, this file) — plus, optionally, the four C-01 spike artifacts — into `_inbox/` under the parent directory before running. Operator steps end-to-end: `C-02_setup_tutorial.md`.
+Via handoff file `C-02_handoff_claude_code.md`, run by **Claude Code** from the intended parent directory (claude.ai sessions have no local filesystem access). Staging: user places the five project documents (00, 01, 02, C-01, this file) — plus, optionally, the four C-01 spike artifacts — into `_inbox/` under the parent directory before running. Operator steps end-to-end: `C-02_setup_tutorial.md`. Private remote: `git@github.com:moritzandre/normgraph.git`.
 
 ## Done-criteria (flip status to **done** when all hold)
 
-- [ ] Repo exists locally with the specified tree; two initial commits made; private remote pushed (or remote-TODO lines reported if `gh` was unavailable)
-- [ ] `uv sync`, `uv run pytest`, `uv run ruff check .` all green
-- [ ] `latexmk -pdf main.tex` (run in `paper/`) builds `main.pdf`
-- [ ] Docs spine in place under `docs/project/` including this spec; 00 brief amended with the repo-layer note (handoff Appendix C)
-- [ ] claude.ai mirror refreshed: amended `00_project_brief.md` pasted, this file added, status flipped to done + date in both places
+- [x] Repo exists locally with the specified tree; two initial commits made; private remote pushed (or remote-TODO lines reported if `gh` was unavailable)
+- [x] `uv sync`, `uv run pytest`, `uv run ruff check .` all green
+- [x] `latexmk -pdf main.tex` (run in `paper/`) builds `main.pdf`
+- [x] Docs spine in place under `docs/project/` including this spec; 00 brief amended with the repo-layer note (handoff Appendix C)
+- [x] claude.ai mirror refreshed: amended `00_project_brief.md` pasted, this file added, status flipped to done + date in both places
 
 ## Changelog
 
 - 2026-06-12 · C-02 specified in claude.ai session; handoff produced; execution delegated to Claude Code (local filesystem required). Constraints set by user: LaTeX separated within the project; repo private.
 - 2026-06-12 · Revised after user clarification: **single monorepo** instead of two repos (D1); spine relocation (D2) user-confirmed; handoff, 00-amendment, and setup tutorial updated accordingly.
-- (pending) · Executed via Claude Code; status → done.
+- 2026-06-22 · Executed via Claude Code: full tree + verbatim Appendix A/B files written; four C-01 inbox artifacts copied (frozen); `uv sync` / `pytest` (1 passed) / `ruff` all green; `latexmk` builds `main.pdf` (1 page); two bootstrap commits plus this done-flip pushed to the private remote (`moritzandre/normgraph`). One documented deviation from handoff Appendix A2: `spikes/` excluded from ruff (the frozen C-01 spike trips F541) via `pyproject.toml` `extend-exclude` — the spike itself is unedited, so the artifact stays frozen.
