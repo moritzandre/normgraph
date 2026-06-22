@@ -1,0 +1,250 @@
+{
+ "meta": {
+  "old_case_id": 521203,
+  "slug": "lg-nurnberg-furth-2026-05-21-8-o-486025",
+  "court": "Landgericht Nürnberg-Fürth",
+  "jurisdiction": "Ordentliche Gerichtsbarkeit (Zivilkammer, 1. Instanz)",
+  "file_number": "8 O 4860/25",
+  "date": "2026-05-21",
+  "type": "Endurteil",
+  "domain_hint": "Privates Krankenversicherungsrecht (§ 192 VVG, MB/KK) — Erstattung GLP-1-Medikament",
+  "source_page": "https://de.openlegaldata.io/case/lg-nurnberg-furth-2026-05-21-8-o-486025",
+  "api_url": "https://de.openlegaldata.io/api/cases/521203/",
+  "capture_method": "web fetch of public case page, HTML->markdown rendering; raw HTML content field available via API/dump in local pipeline",
+  "capture_date": "2026-06-11",
+  "old_extracted_refs": {
+   "norms": [
+    "VVG 2008 § 192",
+    "ZPO § 91",
+    "ZPO § 709"
+   ],
+   "case_refs": [
+    "IV ZR 278/01",
+    "NJW 2003, 1596",
+    "8 U 935/14",
+    "IV ZR 133/95",
+    "NJW 1996, 3074, 3075",
+    "IV ZR 533/15",
+    "NJW 2017, 2408"
+   ]
+  },
+  "notes": "OLD's 'Referenzen' block links norms only into its own law DB; MB/KK clause citations and commentary-order citations (VVG § 192 Rn. 23) are not in OLD's norm ref list."
+ },
+ "anomalies": [
+  "embedded marker 'Beschluss' inside section 'tenor'"
+ ],
+ "sections": {
+  "kopf": {
+   "blocks": 0,
+   "chars": 0,
+   "words": 0,
+   "roman": 0,
+   "arabic_numbered": 0,
+   "letter_points": 0
+  },
+  "tenor": {
+   "blocks": 6,
+   "chars": 249,
+   "words": 35,
+   "roman": 0,
+   "arabic_numbered": 0,
+   "letter_points": 0
+  },
+  "tatbestand": {
+   "blocks": 13,
+   "chars": 2894,
+   "words": 377,
+   "roman": 0,
+   "arabic_numbered": 0,
+   "letter_points": 0
+  },
+  "gründe": {
+   "blocks": 13,
+   "chars": 6427,
+   "words": 871,
+   "roman": 2,
+   "arabic_numbered": 3,
+   "letter_points": 2
+  }
+ },
+ "norm_citations": [
+  {
+   "raw": "§ 192 Rn. 23",
+   "n_markers": 1,
+   "plural_sign": false,
+   "range_ff": false,
+   "ivm": false,
+   "analog": false,
+   "old_new_version": false,
+   "roman_abs": false,
+   "abs_explicit": false,
+   "satz": false,
+   "nr": false,
+   "rn": true,
+   "enum_und": false,
+   "laws_in_chain": [],
+   "law_before_marker": "VVG",
+   "implicit_code": false,
+   "section": "gründe"
+  },
+  {
+   "raw": "§ 1 Rn. 94",
+   "n_markers": 1,
+   "plural_sign": false,
+   "range_ff": false,
+   "ivm": false,
+   "analog": false,
+   "old_new_version": false,
+   "roman_abs": false,
+   "abs_explicit": false,
+   "satz": false,
+   "nr": false,
+   "rn": true,
+   "enum_und": false,
+   "laws_in_chain": [],
+   "law_before_marker": "MB/KK",
+   "implicit_code": false,
+   "section": "gründe"
+  },
+  {
+   "raw": "§ 1 Abs. 2 S. 1 MB/KK",
+   "n_markers": 1,
+   "plural_sign": false,
+   "range_ff": false,
+   "ivm": false,
+   "analog": false,
+   "old_new_version": false,
+   "roman_abs": false,
+   "abs_explicit": true,
+   "satz": true,
+   "nr": false,
+   "rn": false,
+   "enum_und": false,
+   "laws_in_chain": [
+    "MB/KK"
+   ],
+   "law_before_marker": null,
+   "implicit_code": false,
+   "section": "gründe"
+  },
+  {
+   "raw": "§ 1 MB/KK",
+   "n_markers": 1,
+   "plural_sign": false,
+   "range_ff": false,
+   "ivm": false,
+   "analog": false,
+   "old_new_version": false,
+   "roman_abs": false,
+   "abs_explicit": false,
+   "satz": false,
+   "nr": false,
+   "rn": false,
+   "enum_und": false,
+   "laws_in_chain": [
+    "MB/KK"
+   ],
+   "law_before_marker": null,
+   "implicit_code": false,
+   "section": "gründe"
+  },
+  {
+   "raw": "§ 192 Abs. 1 VVG",
+   "n_markers": 1,
+   "plural_sign": false,
+   "range_ff": false,
+   "ivm": false,
+   "analog": false,
+   "old_new_version": false,
+   "roman_abs": false,
+   "abs_explicit": true,
+   "satz": false,
+   "nr": false,
+   "rn": false,
+   "enum_und": false,
+   "laws_in_chain": [
+    "VVG"
+   ],
+   "law_before_marker": null,
+   "implicit_code": false,
+   "section": "gründe"
+  },
+  {
+   "raw": "§ 91 Abs. 1 ZPO",
+   "n_markers": 1,
+   "plural_sign": false,
+   "range_ff": false,
+   "ivm": false,
+   "analog": false,
+   "old_new_version": false,
+   "roman_abs": false,
+   "abs_explicit": true,
+   "satz": false,
+   "nr": false,
+   "rn": false,
+   "enum_und": false,
+   "laws_in_chain": [
+    "ZPO"
+   ],
+   "law_before_marker": null,
+   "implicit_code": false,
+   "section": "gründe"
+  },
+  {
+   "raw": "§ 709 S. 1 und 2 ZPO",
+   "n_markers": 1,
+   "plural_sign": false,
+   "range_ff": false,
+   "ivm": false,
+   "analog": false,
+   "old_new_version": false,
+   "roman_abs": false,
+   "abs_explicit": false,
+   "satz": true,
+   "nr": false,
+   "rn": false,
+   "enum_und": true,
+   "laws_in_chain": [
+    "ZPO"
+   ],
+   "law_before_marker": null,
+   "implicit_code": false,
+   "section": "gründe"
+  }
+ ],
+ "inventory_feature_counts": {
+  "rn": 2,
+  "law_before_marker(commentary_order)": 2,
+  "abs_explicit": 3,
+  "satz": 2,
+  "enum_und": 1
+ },
+ "norm_law_pairs": {
+  "VVG § 192": 2,
+  "MB/KK § 1": 3,
+  "ZPO § 91": 1,
+  "ZPO § 709": 1
+ },
+ "citations_per_section": {
+  "gründe": 7
+ },
+ "case_refs": {
+  "aktenzeichen": [
+   "IV ZR 278/01",
+   "8 U 935/14",
+   "IV ZR 133/95",
+   "IV ZR 533/15"
+  ],
+  "journal": [
+   "NJW 2003, 1596",
+   "NJOZ 2016, 626",
+   "NJW 1996, 3074",
+   "NJW 2017, 2408"
+  ],
+  "a_a_O": 3,
+  "court_mentions": {
+   "BGH": 3,
+   "OLG": 1
+  }
+ }
+}

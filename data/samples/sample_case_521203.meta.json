@@ -1,0 +1,19 @@
+{
+  "old_case_id": 521203,
+  "slug": "lg-nurnberg-furth-2026-05-21-8-o-486025",
+  "court": "Landgericht Nürnberg-Fürth",
+  "jurisdiction": "Ordentliche Gerichtsbarkeit (Zivilkammer, 1. Instanz)",
+  "file_number": "8 O 4860/25",
+  "date": "2026-05-21",
+  "type": "Endurteil",
+  "domain_hint": "Privates Krankenversicherungsrecht (§ 192 VVG, MB/KK) — Erstattung GLP-1-Medikament",
+  "source_page": "https://de.openlegaldata.io/case/lg-nurnberg-furth-2026-05-21-8-o-486025",
+  "api_url": "https://de.openlegaldata.io/api/cases/521203/",
+  "capture_method": "web fetch of public case page, HTML->markdown rendering; raw HTML content field available via API/dump in local pipeline",
+  "capture_date": "2026-06-11",
+  "old_extracted_refs": {
+    "norms": ["VVG 2008 § 192", "ZPO § 91", "ZPO § 709"],
+    "case_refs": ["IV ZR 278/01", "NJW 2003, 1596", "8 U 935/14", "IV ZR 133/95", "NJW 1996, 3074, 3075", "IV ZR 533/15", "NJW 2017, 2408"]
+  },
+  "notes": "OLD's 'Referenzen' block links norms only into its own law DB; MB/KK clause citations and commentary-order citations (VVG § 192 Rn. 23) are not in OLD's norm ref list."
+}

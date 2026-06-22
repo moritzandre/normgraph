@@ -1,0 +1,32 @@
+[project]
+name = "normgraph"
+version = "0.0.1"
+description = "NormGraph - learning fact-conditional traversal of German civil-law norms from court decisions (DSR project)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "ruff>=0.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/normgraph"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+# C-02 deviation from handoff Appendix A2: the frozen C-01 spike trips ruff F541
+# (escaped-brace regex carrying an rf-prefix). Spikes are frozen (CLAUDE.md Hard
+# Rule #4), so exclude them from linting instead of editing the artifact. This
+# encodes the apparent intent of src=["src","tests"] (lint first-party source only).
+extend-exclude = ["spikes"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
