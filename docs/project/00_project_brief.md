@@ -49,6 +49,8 @@ Consequence: **files are the spine, chats are disposable working sessions.** Don
 | 00_project_brief.md | all | this document |
 | 01_literature_map.md | PAPER | method canon → function in our paper |
 | 02_decision_register.md | ARCH | granular design decisions (DD-xxx) |
+| 05_sync_protocol.md | all | git ⇄ claude.ai sync discipline + SYNC BLOCK ritual |
+| 06_legal_methodology_primer.md | ARCH/PAPER | Gutachtenstil/Prüfungsschemata sources grounding DD-001/002 |
 | 03_paper/ (outline, drafts) | PAPER | added as they emerge |
 | 04_specs/ (per-component) | CODE | added as DDs are decided |
 | Literature PDFs | PAPER | upload the course papers |

@@ -24,8 +24,6 @@ Evidence / sources:
 
 ## DD-001 — Role & representation of a node (norm model)
 
-## DD-001 — Role & representation of a node (norm model)
-
 Status: **decided** · Date: 2026-06-23 · Lanes affected: ARCH → PAPER, CODE
 
 **Question:** What exactly is a node, relative to "a norm"? What does a node *contain*, what is its identity, and what lives elsewhere (on edges, in path state, in payload)?
